@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" class="ui" href="https://upload.piterator.com/static/node_modules/semantic-ui-css/semantic.min.css">
+    <title>漫威工作室 Marvel-Studio</title>
+    <style>
+        * {
+            font-family: "微软雅黑";
+        }
+    
+        .ui.menu .item img.logo {
+            margin-right: 1.5em;
+        }
+    
+        .main.container {
+            margin-top: 6em;
+        }
+    
+        .wireframe {
+            margin-top: 2em;
+        }
+    
+        .ui.footer.segment {
+            margin: 3em 0 0;
+            padding: 3em 0;
+        }
+    
+        .ui.dropdown .menu .header {
+            font-size: 1em;
+        }
+    
+        #videoImg {
+            border-radius: 5px;
+            width: 98%;
+            position: relative;
+            left: 1%;
+        }
+    
+        #videoImg:hover{
+            border-radius: 5px;
+            width: 100%;
+            position: relative;
+            left: 0%;
+        }
+    </style>
+</head>
+<body id="main-body">
+    <div id="video" class="ui basic modal" style="width: auto">
+        <video style="border-radius: 5px" src="video/mv.mp4" controls="controls"></video>
+    </div>
+    <header>
+        <div class="ui fixed menu" style="background-color: #e1e1e1">
+            <div class="ui container middle">
+                <a class="header item" href="#">漫威工作室</a>
+                <a class="item" href="#guanyu">关于</a>
+                <a class="item" href="#chengyuan">成员</a>
+                <a class="item" href="#wenzhang">文章</a>
+                <a class="item" href="#zhaomu">招募</a>
+                <a class="item" href="#youxi">游戏</a>
+                <div class="right menu">
+                    <div class="ui simple dropdown item">
+                        目录
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="header"><a href="#" style="color: #000000">漫威工作室</a></div>
+                            <div class="divider"></div>
+                            <a href="#guanyu" class="item">关于我们</a>
+                            <a href="#chengyuan" class="item">我们的成员</a>
+                            <a href="#wenzhang" class="item">我们的文章</a>
+                            <a href="#zhaomu" class="item">招贤纳士</a>
+                            <a href="#youxi" class="item">我们的游戏</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ui main text container">
+        <div style="text-align: center" id="fanxing">
+            <h4 class="ui header" style="font-size: 2.5em; text-align: center; color: #ff5555">漫 威 工 作 室</h4>
+            <p class="text container" style="font-size: 1.12em; color: #878787">每个人都有无限可能</p>
+        </div>
+        <div style="text-align: center; margin: auto; padding: auto" id="guanyu">
+            <div style="width: 67%; margin: auto; padding: auto">
+                <br />
+                <h4 class="ui header" style="font-size: 1.8em; text-align: center">关于我们</h4>
+                <p class="text container" style="text-align: left; font-size: 1.2em">
+                    &emsp;&emsp;漫威工作室成立于2019年，我们拥有专业的团队，我们知道真正的创新需要新思想，程序和设计的交融贯通。我们有超过30位成员，每个人也有自己独特的想法和故事，我们为了高效工作而聚在一起。我们的团队不仅来自不同的领域，我们还非常喜欢那些有多种兴趣、经历并跨越不同领域的人一起思考。
+                </p>
+            </div>
+        </div>
+        <div id="chengyuan">
+            <br />
+            <h4 class="ui header" style="font-size: 1.8em; text-align: center">我们的成员</h4>
+            <div class="ui centered cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小A</div>
+                        <div class="meta">室长</div>
+                        <div class="description">工作室室长，abcdefghijklmn。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小B</div>
+                        <div class="meta">管理员</div>
+                        <div class="description">工作室成员，abcdefghijklmn。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小C</div>
+                        <div class="meta">管理员</div>
+                        <div class="description">工作室成员，abcdefghijklmn。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小D</div>
+                        <div class="meta">管理员</div>
+                        <div class="description">工作室成员，abcdefghijklmn。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小E</div>
+                        <div class="meta">管理员</div>
+                        <div class="description">工作室成员，abcdefghijklmn。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">小F</div>
+                        <div class="meta">管理员</div>
+                        <div class="description">工作室成员，abcdefghijklmn。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui message">
+                <div class="header">附全部成员名单：</div>
+                <br />
+                <div class="header">Web前端</div>
+                <p>来自 <a href="https://www.piterator.com/" target="_blank">Piterator</a> 的 博瀚君</p>
+                <div class="header">开发</div>
+                <p>A，B，C，D，E，F，G……</p>
+                <div class="header">美术</div>
+                <p>H，I，J，K，L，M，N……</p>
+                <div class="header">教育</div>
+                <p>O，P，Q，R，S，T，U……</p>
+            </div>
+        </div>
+        <div id="wenzhang">
+            <br />
+            <h4 class="ui header" style="font-size: 1.8em; text-align: center">我们的文章</h4>
+            <div class="ui items">
+                <div class="item">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/300x240" alt="image" />
+                    </div>
+                    <div class="content">
+                        <a class="header" href="blog/000001.html">收友谊链接啦</a>
+                        <div class="meta">
+                            <strong>作者：</strong>
+                            <span>漫威工作室</span>
+                        </div>
+                        <div class="description">
+                            嘿！想让你的团队和我们一起合作吗？……
+                        </div>
+                        <div class="extra">2019/12/31</div>
+                        <div class="meta">
+                            <a class="ui olive tag label">New</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="ui small button" href="blog/document.html"><i class="ellipsis vertical icon"></i>查看更多</a>
+            <a class="ui medium basic label">共 1 篇</a>
+            <p></p>
+            <form>
+                <div class="ui mini input">
+                    <input name="mail" type="text" placeholder="邮箱地址" />
+                </div>
+                &ensp;
+                <div class="ui toggle checkbox">
+                    <input name="take" type="checkbox" checked="">
+                    <label>订阅我们的文章</label>
+                </div>
+                &ensp;
+                <input class="ui small primary button" type="submit" value="确定" />
+            </form>
+        </div>
+        <div id="zhaomu">
+            <br />
+            <h4 class="ui header" style="font-size: 1.8em; text-align: center">招贤纳士</h4>
+            <div class="ui centered cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">游戏开发工程师</div>
+                        <br />
+                        <div class="description">· 负责游戏开发维护<br />· 熟悉scratch开发<br />· 拥有至少一款独立Scratch游戏<br />· 对新技术有孜孜不倦的追求</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">文案</div>
+                        <br />
+                        <div class="description">· 文笔好，打字速度快，条理分明<br />· 熟练使用各种演示文稿，文字软件<br />· 有良好的沟通能力和团队协作能力</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">美工设计师</div>
+                        <br />
+                        <div class="description">· 具备设计经验<br />· 具备优秀的绘画能力<br />· 专注执着，充满激情，勇于创新<br />· 有良好的沟通能力和团队协作能力</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="youxi">
+            <br />
+            <h4 class="ui header" style="font-size: 1.8em; text-align: center">我们的游戏</h4>
+            <div class="ui centered link cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="img/plane-war.png">
+                    </div>
+                    <div class="content">
+                        <a class="header" href="#" target="_blank">游戏1</a>
+                        <div class="meta">
+                            <a href="#chengyuan">小A</a>
+                        </div>
+                        <div class="description">《游戏1》是小A（漫威工作室室长）的个人制作。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/eating-ball.png">
+                    </div>
+                    <div class="content">
+                        <a class="header" href="#" target="_blank">游戏2</a>
+                        <div class="meta">
+                            <a href="#chengyuan">小B</a>
+                        </div>
+                        <div class="description">《游戏2》是小B（漫威工作室成员）的个人制作。</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="img/happy-world.png">
+                    </div>
+                    <div class="content">
+                        <a class="header" href="#" target="_blank">游戏3</a>
+                        <div class="meta">
+                            <a href="#chengyuan">小C</a>
+                        </div>
+                        <div class="description">《游戏3》是小C（漫威工作室成员）的个人制作。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="scratch">
+            <br />
+            <h4 class="ui header" style="font-size: 1.8em; text-align: center">Stars-Scratch 3.0 Beta</h4>
+            <p></p>
+        </div> -->
+    </div>
+    <!-- <div style="margin: auto; padding: auto">
+        <object type="text/html" style="margin: auto; padding: auto" data="scratch/index.html" width="100%" height="800px">你个傻逼，浏览器这么老，还想玩“Scratch”？</object>
+    </div> -->
+    <footer>
+        <div class="ui vertical footer segment" style="background-color: #e1e1e1">
+            <div class="ui center aligned container">
+                <div class="ui stackable divided grid">
+                    <div class="eight wide column">
+                        <h4 class="ui header" style="font-family: '微软雅黑';">合作伙伴</h4>
+                        <div class="ui link list">
+                            <div class="ui section divider"></div>
+                            <a href="https://www.piterator.com/" class="item">Piterator</a>
+                            <br />
+                            <a href="https://code.xueersi.com/" class="item">学而思网校</a>
+                        </div>
+                    </div>
+                    <div class="eight wide column">
+                        <h4 class="ui header" style="font-family: '微软雅黑';">联系方式</h4>
+                        <div class="ui link list">
+                            <div class="ui section divider"></div>
+                            <a class="item">官方QQ群：123456789</a>
+                            <br />
+                            <a class="item">官方邮箱：youxiang@marvelcode.cn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui inverted section divider"></div>
+                <div class="ui horizontal small divided link list">
+                    <a class="item" href="#guanyu">关于</a>
+                    <a class="item" href="#chengyuan">成员</a>
+                    <a class="item" href="#zhaomu">招募</a>
+                    <a class="item" href="#youxi">游戏</a>
+                </div>
+                <div class="ui">© 2020 <a href="#">Marvel-Studio</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://static.piterator.com/node_modules/jquery/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/ui-crt-macker.js"></script>
+    <script src="https://upload.piterator.com/static/node_modules/semantic-ui-css/semantic.min.js"></script>
+</body>
+</html>
